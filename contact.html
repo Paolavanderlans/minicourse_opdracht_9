@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html>
+    <head >
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title> Winc Academy Mini Course </title>
+    </head>
+    <body>
+        <header>
+            <h1 class="header">Een simpele website van<br> Winc Academy</h1>
+            <nav>
+            <ul class="main-navigation">
+              <li class="horizontal-nav"><a href="index.html">Home</a></li>
+              <li class="horizontal-nav"><a href="about.html">Over mij</a></li>
+              <li class="horizontal-nav"><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <form name="contact" method="POST" data-netlify="true">
+                <p><label>Naam: <input type="text" name="name"/></label></p>
+                <p><label>Email: <input type="email" name="email"/></label></p>
+                <p><label>Telefoonnummer: <input type="phonenumber" name="phonenumber"/></label></p>
+                <p><label>Leeftijd: <input type="text" name="age"/></label></p>
+                <p><label>Geslacht: <input type="radio" name="gender" value="female"/>Vrouw
+                    <input type="radio" name="gender" value="male"/>Man
+                    <input type="radio" name="gender" value="other"/> Anders
+                </label></p>
+                <p><label>Favoriete Cuisine: <input type="checkbox" name="favorite cuisine"/>Frans 
+                    <input type="checkbox" name="favorite cuisine"/>Italiaans 
+                    <input type="checkbox" name="favorite cuisine"/>Spaans 
+                    <input type="checkbox" name="favorite cuisine"/>Arabisch
+                </label></p>
+                <p><label>Favoriete Kleur Schort: <input type="color" name="schort colour"/></label></p>
+                <p><label>Biografie:<textarea name="biografie" rows="10" columns="500"></textarea></label></p>
+                <p><label>Upload je laatste recept: <input type="file" name="laatste recept"/></label></p>
+                <p><label>URL naar je receptenwebsite: <input type="url" name="receptenwebsite"/>
+                <br>
+                <p><input type="reset"/>
+                    <input type="submit"/></p>
+
+            </form>
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
+    

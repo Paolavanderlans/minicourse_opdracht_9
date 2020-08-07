@@ -1,0 +1,118 @@
+.header{
+    background-color: teal;
+    color: white;
+    margin: 1.6em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.main-navigation li{
+    display:inline
+}
+   
+a{
+    padding: 8px;
+    background-color: #fff;
+    color: black
+}
+a:link{
+    text-decoration: none;    
+}
+      
+body{
+    background-color: #ffdb58;
+}
+.center-alignment{
+    text-align: center;
+    align-items: center;
+}
+h2{
+    color: teal;
+}
+.list-spacing{
+    line-height: 1.6em;
+}
+.border{
+    border: lightslategray;
+    border-radius: 1em;
+    border-style: dotted;
+}
+.text-weight{
+    font-weight: bolder;
+}
+
+.blogpost{
+    border: 1px solid coral; 
+    margin: 50px 20px
+}
+
+.blog-container-firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.blog-container-secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blogpost-changed{
+    flex-grow: 2;
+    border: 1px solid coral;
+    margin: 50px 20px
+}
+
+.blogpost{
+    align-self: baseline;
+}
+
+.blogpost-changed{
+    align-self: baseline;
+
+/*
+input{
+    display: block;
+}
+textarea{
+    display: block;
+}*/
+
+
+
+@media (min-width: 1024px){
+    body {
+        background-color: mintcream
+    }
+    
+}
+@media (min-width: 1024px){
+    h2 {
+        color: coral
+    }
+}
+@media (min-width: 1024px){
+    h2 {
+        font-size: 2.5em;
+    }
+    li {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 1024px){
+    body{
+        line-height: 4em;
+    }
+    li{
+        line-height: 1.5em;
+    }
+}
